@@ -21,7 +21,8 @@ jobs:
 
     steps:
       - name: pruebas
-        run: pwd
+        run: |
+          pwd
           ls -al
           whoami
           ls
