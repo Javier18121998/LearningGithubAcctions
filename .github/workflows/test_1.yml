@@ -15,3 +15,13 @@ jobs:
     steps:
       - name: LS
         run: ls -al
+
+  my-own-proof:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: pruebas
+        run: pwd
+          ls -al
+          whoami
+          ls
