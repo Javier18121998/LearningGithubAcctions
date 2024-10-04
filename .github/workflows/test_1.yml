@@ -24,4 +24,3 @@ jobs:
         run: |
           pwd
           ls -al
-          ls
